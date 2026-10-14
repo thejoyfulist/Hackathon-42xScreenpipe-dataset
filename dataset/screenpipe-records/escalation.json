@@ -1,0 +1,32 @@
+[
+  {
+    "id": "s1",
+    "timestamp": "2026-03-02T08:42:00Z",
+    "app": "Pipeline ERP",
+    "text": "Symptom: GL detail export for a full month times out after 120 s (February close).\nQuestion: Is it the number of rows or the server load on the first working day?"
+  },
+  {
+    "id": "s2",
+    "timestamp": "2026-03-02T08:46:00Z",
+    "app": "Pipeline ERP",
+    "text": "Attempt: Re-run the full-month export.\nResult: Same timeout after 120 s."
+  },
+  {
+    "id": "s3",
+    "timestamp": "2026-03-02T08:51:00Z",
+    "app": "Pipeline ERP",
+    "text": "Attempt: Export 1-14 and 15-end of month separately and merge.\nResult: Two files download. The merge is manual; a single full-month export is still not working."
+  },
+  {
+    "id": "s4",
+    "timestamp": "2026-04-02T08:47:00Z",
+    "app": "Mail",
+    "text": "Symptom: The March export needed the same workaround.\nQuestion: Can the manual merge paste the boundary day (14th) twice and create duplicate entries?\nAction (Mark): Follow up the ERP vendor ticket on the export timeout."
+  },
+  {
+    "id": "s5",
+    "timestamp": "2026-04-02T08:50:00Z",
+    "app": "Chat",
+    "text": "Action (Unassigned): Add a duplicate entry_id check to the close procedure."
+  }
+]

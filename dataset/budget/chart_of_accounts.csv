@@ -1,0 +1,14 @@
+account,account_name,line_code,line_name,opened
+4000,Sales - contract customers,REV_CONTRACT,Revenue - Contract,2026-01
+4010,Sales - dealers,REV_DEALER,Revenue - Dealers,2026-01
+4020,Sales - online web shop,REV_ONLINE,Revenue - Online,2026-03
+5000,Purchases - timber and panels,MAT_TIMBER,Timber & panels,2026-01
+5010,Purchases - metal fittings,MAT_FITTINGS,Metal fittings & hardware,2026-01
+5100,Wages - production,LAB_DIRECT,Direct labour,2026-01
+5110,Temporary staff,LAB_TEMP,Temporary labour,2026-01
+5200,Carriage outwards,FREIGHT,Freight out,2026-01
+6000,Electricity and gas,ENERGY,Energy,2026-01
+6100,"Audit, legal and consulting fees",FEES,Professional fees,2026-01
+6200,Rent and service charges,RENT,Rent & facilities,2026-01
+6300,Other overheads,OTHER,Other overheads,2026-01
+6400,Salaries - administration and sales,LAB_ADMIN,Salaries - admin & sales,2026-01

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "m01",
+    "timestamp": "2026-04-02T08:35:00Z",
+    "app": "Pipeline ERP",
+    "text": "Reports > GL detail export. Period 2026-03. Exported 01/03-14/03 and 15/03-31/03 separately (timeout workaround)."
+  },
+  {
+    "id": "m02",
+    "timestamp": "2026-04-02T08:47:00Z",
+    "app": "Pipeline ERP",
+    "text": "Merged into gl_2026-03.csv: 63 rows. Checked that no entry of 14 March appears twice."
+  },
+  {
+    "id": "m03",
+    "timestamp": "2026-04-02T08:55:00Z",
+    "app": "Excel",
+    "text": "closing_workbook_2026-03.xlsx, tab GL_import: deleted February rows, pasted 63 March rows."
+  },
+  {
+    "id": "m04",
+    "timestamp": "2026-04-02T09:01:00Z",
+    "app": "Excel",
+    "text": "Filter column M on UNMAPPED: 6 rows, account 4020 Sales - online web shop, total 6,400.00. PnL_vs_Budget shows FIX MAPPING."
+  },
+  {
+    "id": "m05",
+    "timestamp": "2026-04-02T09:04:00Z",
+    "app": "Mail",
+    "text": "Read Ellen Walsh's email: account 4020 opened on 1 March for the new web shop, not in the mapping tab yet."
+  },
+  {
+    "id": "m06",
+    "timestamp": "2026-04-02T09:08:00Z",
+    "app": "Excel",
+    "text": "Tab Mapping: added account 4020 -> REV_ONLINE (Revenue - Online). UNMAPPED now returns 0 rows."
+  },
+  {
+    "id": "m07",
+    "timestamp": "2026-04-02T09:11:00Z",
+    "app": "Excel",
+    "text": "Check: sum of net in GL_import matches the ERP P&L total for March. OK."
+  },
+  {
+    "id": "m08",
+    "timestamp": "2026-04-02T09:15:00Z",
+    "app": "Excel",
+    "text": "Tab PnL_vs_Budget refreshed. EBITDA actual 276,900 vs budget 324,000. Comment needed = YES on 7 lines."
+  },
+  {
+    "id": "m09",
+    "timestamp": "2026-04-02T09:40:00Z",
+    "app": "Excel",
+    "text": "GL_import filtered on account 5000, Brightwood Timber Ltd: 3 invoices, price list 2026-02, total 162,000.00. Same cause as February."
+  },
+  {
+    "id": "m10",
+    "timestamp": "2026-04-02T10:30:00Z",
+    "app": "Mail",
+    "text": "Searched mail for 'Belvedere', 'StaffBridge', 'Celtic', 'KPC', 'Atlantic'. Found E06, E07, E09, E10, E11, E14."
+  },
+  {
+    "id": "m11",
+    "timestamp": "2026-04-02T11:15:00Z",
+    "app": "Excel",
+    "text": "Atlantic Freight: 3 lines 'Surcharge - service code EXP', 6,200.00 in total. No email or chat explains why. Left as open question."
+  },
+  {
+    "id": "m12",
+    "timestamp": "2026-04-03T09:50:00Z",
+    "app": "Excel",
+    "text": "Tab Commentary: wrote explanations for 7 lines above threshold, with sources."
+  },
+  {
+    "id": "m13",
+    "timestamp": "2026-04-03T16:30:00Z",
+    "app": "PowerPoint",
+    "text": "management_pack_2026-03.pptx: updated Summary, P&L vs budget and Variance commentary slides."
+  }
+]

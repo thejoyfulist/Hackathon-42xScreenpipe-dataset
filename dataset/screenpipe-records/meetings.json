@@ -1,0 +1,20 @@
+[
+  {
+    "id": "M01",
+    "timestamp": "2026-03-05T09:00:00Z",
+    "app": "Meeting",
+    "text": "Weekly production meeting\nPieter de Vries: Morning everyone. First topic, the Harbour City order.\nRaj Mehta: Harbour City Council confirmed order HCC-0457 yesterday. School furniture, twenty-eight thousand euros, and they need it before the schools reopen at the end of March.\nPieter de Vries: That's a rush on top of the normal plan. With the current team we can't do it in three weeks.\nPieter de Vries: I'll bring in three temporary operatives from StaffBridge for three weeks, from Monday the ninth. That's about fourteen thousand euros.\nNiamh Brennan: Panels are fine, I can get the extra boards from Oakfield.\nSofia Lindqvist: Delivery to the schools is standard road freight, no problem.\nDecision: three StaffBridge operatives from 9 to 27 March for the Harbour City rush order.\nAction (Pieter): book the three operatives with StaffBridge today.\nAction (Raj): confirm the delivery date to Harbour City."
+  },
+  {
+    "id": "M02",
+    "timestamp": "2026-03-18T14:00:00Z",
+    "app": "Meeting",
+    "text": "Purchasing review\nNiamh Brennan: Brightwood answered this morning. No volume rebate, and a further three percent from the first of May.\nTom Avery: So the eight percent is permanent. Claire, what does that cost us?\nClaire Donnelly: About twelve thousand a month on timber since February. With three percent more from May, around sixteen to seventeen thousand a month.\nDecision: we look for a second supplier for veneer panels before May.\nAction (Niamh): get quotes from Oakfield and Nordboard by the end of April.\nAction (Claire): include the May increase in the Q2 forecast."
+  },
+  {
+    "id": "M03",
+    "timestamp": "2026-04-14T11:00:00Z",
+    "app": "Meeting",
+    "text": "April close handoff\nClaire Donnelly: Ellen, you'll run the April close, Owen shadows you. Threshold stays at five thousand per line.\nClaire Donnelly: Three things carry over from March. First, the Belvedere order of forty-five thousand should be invoiced on the fourteenth of April.\nClaire Donnelly: Second, the KPC kickoff of eight thousand was invoiced in March but budgeted in April, so April fees will look favourable. That's timing, not a saving.\nClaire Donnelly: Third, I never found why Atlantic Freight charged express surcharges in March. Six thousand two hundred.\nEllen Walsh: Who would know?\nClaire Donnelly: Sofia in logistics. I haven't asked her yet.\nDecision: Ellen leads the April close, Claire is on leave from 20 April to 8 May.\nAction (Ellen): ask Sofia which shipments used service code EXP in March.\nAction (Owen): note every question you have during the April close."
+  }
+]

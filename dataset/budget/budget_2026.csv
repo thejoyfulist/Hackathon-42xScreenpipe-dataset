@@ -1,0 +1,157 @@
+line_code,line_name,month,amount
+REV_CONTRACT,Revenue - Contract,2026-01,820000
+REV_DEALER,Revenue - Dealers,2026-01,480000
+REV_ONLINE,Revenue - Online,2026-01,0
+MAT_TIMBER,Timber & panels,2026-01,290000
+MAT_FITTINGS,Metal fittings & hardware,2026-01,115000
+LAB_DIRECT,Direct labour,2026-01,255000
+LAB_TEMP,Temporary labour,2026-01,8000
+FREIGHT,Freight out,2026-01,44000
+ENERGY,Energy,2026-01,31000
+FEES,Professional fees,2026-01,15000
+RENT,Rent & facilities,2026-01,40000
+OTHER,Other overheads,2026-01,58000
+LAB_ADMIN,Salaries - admin & sales,2026-01,120000
+REV_CONTRACT,Revenue - Contract,2026-02,820000
+REV_DEALER,Revenue - Dealers,2026-02,480000
+REV_ONLINE,Revenue - Online,2026-02,0
+MAT_TIMBER,Timber & panels,2026-02,290000
+MAT_FITTINGS,Metal fittings & hardware,2026-02,115000
+LAB_DIRECT,Direct labour,2026-02,255000
+LAB_TEMP,Temporary labour,2026-02,8000
+FREIGHT,Freight out,2026-02,44000
+ENERGY,Energy,2026-02,31000
+FEES,Professional fees,2026-02,15000
+RENT,Rent & facilities,2026-02,40000
+OTHER,Other overheads,2026-02,58000
+LAB_ADMIN,Salaries - admin & sales,2026-02,120000
+REV_CONTRACT,Revenue - Contract,2026-03,820000
+REV_DEALER,Revenue - Dealers,2026-03,480000
+REV_ONLINE,Revenue - Online,2026-03,0
+MAT_TIMBER,Timber & panels,2026-03,290000
+MAT_FITTINGS,Metal fittings & hardware,2026-03,115000
+LAB_DIRECT,Direct labour,2026-03,255000
+LAB_TEMP,Temporary labour,2026-03,8000
+FREIGHT,Freight out,2026-03,44000
+ENERGY,Energy,2026-03,31000
+FEES,Professional fees,2026-03,15000
+RENT,Rent & facilities,2026-03,40000
+OTHER,Other overheads,2026-03,58000
+LAB_ADMIN,Salaries - admin & sales,2026-03,120000
+REV_CONTRACT,Revenue - Contract,2026-04,820000
+REV_DEALER,Revenue - Dealers,2026-04,480000
+REV_ONLINE,Revenue - Online,2026-04,0
+MAT_TIMBER,Timber & panels,2026-04,290000
+MAT_FITTINGS,Metal fittings & hardware,2026-04,115000
+LAB_DIRECT,Direct labour,2026-04,255000
+LAB_TEMP,Temporary labour,2026-04,8000
+FREIGHT,Freight out,2026-04,44000
+ENERGY,Energy,2026-04,31000
+FEES,Professional fees,2026-04,23000
+RENT,Rent & facilities,2026-04,40000
+OTHER,Other overheads,2026-04,58000
+LAB_ADMIN,Salaries - admin & sales,2026-04,120000
+REV_CONTRACT,Revenue - Contract,2026-05,820000
+REV_DEALER,Revenue - Dealers,2026-05,480000
+REV_ONLINE,Revenue - Online,2026-05,0
+MAT_TIMBER,Timber & panels,2026-05,290000
+MAT_FITTINGS,Metal fittings & hardware,2026-05,115000
+LAB_DIRECT,Direct labour,2026-05,255000
+LAB_TEMP,Temporary labour,2026-05,8000
+FREIGHT,Freight out,2026-05,44000
+ENERGY,Energy,2026-05,31000
+FEES,Professional fees,2026-05,15000
+RENT,Rent & facilities,2026-05,40000
+OTHER,Other overheads,2026-05,58000
+LAB_ADMIN,Salaries - admin & sales,2026-05,120000
+REV_CONTRACT,Revenue - Contract,2026-06,820000
+REV_DEALER,Revenue - Dealers,2026-06,480000
+REV_ONLINE,Revenue - Online,2026-06,0
+MAT_TIMBER,Timber & panels,2026-06,290000
+MAT_FITTINGS,Metal fittings & hardware,2026-06,115000
+LAB_DIRECT,Direct labour,2026-06,255000
+LAB_TEMP,Temporary labour,2026-06,8000
+FREIGHT,Freight out,2026-06,44000
+ENERGY,Energy,2026-06,31000
+FEES,Professional fees,2026-06,15000
+RENT,Rent & facilities,2026-06,40000
+OTHER,Other overheads,2026-06,58000
+LAB_ADMIN,Salaries - admin & sales,2026-06,120000
+REV_CONTRACT,Revenue - Contract,2026-07,820000
+REV_DEALER,Revenue - Dealers,2026-07,480000
+REV_ONLINE,Revenue - Online,2026-07,0
+MAT_TIMBER,Timber & panels,2026-07,290000
+MAT_FITTINGS,Metal fittings & hardware,2026-07,115000
+LAB_DIRECT,Direct labour,2026-07,255000
+LAB_TEMP,Temporary labour,2026-07,8000
+FREIGHT,Freight out,2026-07,44000
+ENERGY,Energy,2026-07,31000
+FEES,Professional fees,2026-07,15000
+RENT,Rent & facilities,2026-07,40000
+OTHER,Other overheads,2026-07,58000
+LAB_ADMIN,Salaries - admin & sales,2026-07,120000
+REV_CONTRACT,Revenue - Contract,2026-08,820000
+REV_DEALER,Revenue - Dealers,2026-08,480000
+REV_ONLINE,Revenue - Online,2026-08,0
+MAT_TIMBER,Timber & panels,2026-08,290000
+MAT_FITTINGS,Metal fittings & hardware,2026-08,115000
+LAB_DIRECT,Direct labour,2026-08,255000
+LAB_TEMP,Temporary labour,2026-08,8000
+FREIGHT,Freight out,2026-08,44000
+ENERGY,Energy,2026-08,31000
+FEES,Professional fees,2026-08,15000
+RENT,Rent & facilities,2026-08,40000
+OTHER,Other overheads,2026-08,58000
+LAB_ADMIN,Salaries - admin & sales,2026-08,120000
+REV_CONTRACT,Revenue - Contract,2026-09,820000
+REV_DEALER,Revenue - Dealers,2026-09,480000
+REV_ONLINE,Revenue - Online,2026-09,0
+MAT_TIMBER,Timber & panels,2026-09,290000
+MAT_FITTINGS,Metal fittings & hardware,2026-09,115000
+LAB_DIRECT,Direct labour,2026-09,255000
+LAB_TEMP,Temporary labour,2026-09,8000
+FREIGHT,Freight out,2026-09,44000
+ENERGY,Energy,2026-09,31000
+FEES,Professional fees,2026-09,15000
+RENT,Rent & facilities,2026-09,40000
+OTHER,Other overheads,2026-09,58000
+LAB_ADMIN,Salaries - admin & sales,2026-09,120000
+REV_CONTRACT,Revenue - Contract,2026-10,820000
+REV_DEALER,Revenue - Dealers,2026-10,480000
+REV_ONLINE,Revenue - Online,2026-10,0
+MAT_TIMBER,Timber & panels,2026-10,290000
+MAT_FITTINGS,Metal fittings & hardware,2026-10,115000
+LAB_DIRECT,Direct labour,2026-10,255000
+LAB_TEMP,Temporary labour,2026-10,8000
+FREIGHT,Freight out,2026-10,44000
+ENERGY,Energy,2026-10,31000
+FEES,Professional fees,2026-10,15000
+RENT,Rent & facilities,2026-10,40000
+OTHER,Other overheads,2026-10,58000
+LAB_ADMIN,Salaries - admin & sales,2026-10,120000
+REV_CONTRACT,Revenue - Contract,2026-11,820000
+REV_DEALER,Revenue - Dealers,2026-11,480000
+REV_ONLINE,Revenue - Online,2026-11,0
+MAT_TIMBER,Timber & panels,2026-11,290000
+MAT_FITTINGS,Metal fittings & hardware,2026-11,115000
+LAB_DIRECT,Direct labour,2026-11,255000
+LAB_TEMP,Temporary labour,2026-11,8000
+FREIGHT,Freight out,2026-11,44000
+ENERGY,Energy,2026-11,31000
+FEES,Professional fees,2026-11,15000
+RENT,Rent & facilities,2026-11,40000
+OTHER,Other overheads,2026-11,58000
+LAB_ADMIN,Salaries - admin & sales,2026-11,120000
+REV_CONTRACT,Revenue - Contract,2026-12,820000
+REV_DEALER,Revenue - Dealers,2026-12,480000
+REV_ONLINE,Revenue - Online,2026-12,0
+MAT_TIMBER,Timber & panels,2026-12,290000
+MAT_FITTINGS,Metal fittings & hardware,2026-12,115000
+LAB_DIRECT,Direct labour,2026-12,255000
+LAB_TEMP,Temporary labour,2026-12,8000
+FREIGHT,Freight out,2026-12,44000
+ENERGY,Energy,2026-12,31000
+FEES,Professional fees,2026-12,15000
+RENT,Rent & facilities,2026-12,40000
+OTHER,Other overheads,2026-12,58000
+LAB_ADMIN,Salaries - admin & sales,2026-12,120000

@@ -1,0 +1,8 @@
+[project]
+name = "hackathon-42x-screenpipe-dataset"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "openpyxl>=3.1.5",
+    "python-pptx>=1.0.2",
+]

@@ -1,0 +1,185 @@
+{
+  "title": "Monthly management close",
+  "context": "Financial Controller closing the March 2026 management accounts. Proposed change: a duplicate check after the split export, a stop on unmapped accounts, and an explicit rule for unexplained variances.",
+  "revision": 2,
+  "origin": "Curated synthetic candidate for the hackathon (fictional data). Not approved: review every step in the desk.",
+  "evidence": [
+    {
+      "id": "m01",
+      "timestamp": "2026-04-02T08:35:00Z",
+      "app": "Pipeline ERP",
+      "text": "Reports > GL detail export. Period 2026-03. Exported 01/03-14/03 and 15/03-31/03 separately (timeout workaround)."
+    },
+    {
+      "id": "m02",
+      "timestamp": "2026-04-02T08:47:00Z",
+      "app": "Pipeline ERP",
+      "text": "Merged into gl_2026-03.csv: 63 rows. Checked that no entry of 14 March appears twice."
+    },
+    {
+      "id": "m03",
+      "timestamp": "2026-04-02T08:55:00Z",
+      "app": "Excel",
+      "text": "closing_workbook_2026-03.xlsx, tab GL_import: deleted February rows, pasted 63 March rows."
+    },
+    {
+      "id": "m04",
+      "timestamp": "2026-04-02T09:01:00Z",
+      "app": "Excel",
+      "text": "Filter column M on UNMAPPED: 6 rows, account 4020 Sales - online web shop, total 6,400.00. PnL_vs_Budget shows FIX MAPPING."
+    },
+    {
+      "id": "m05",
+      "timestamp": "2026-04-02T09:04:00Z",
+      "app": "Mail",
+      "text": "Read Ellen Walsh's email: account 4020 opened on 1 March for the new web shop, not in the mapping tab yet."
+    },
+    {
+      "id": "m06",
+      "timestamp": "2026-04-02T09:08:00Z",
+      "app": "Excel",
+      "text": "Tab Mapping: added account 4020 -> REV_ONLINE (Revenue - Online). UNMAPPED now returns 0 rows."
+    },
+    {
+      "id": "m07",
+      "timestamp": "2026-04-02T09:11:00Z",
+      "app": "Excel",
+      "text": "Check: sum of net in GL_import matches the ERP P&L total for March. OK."
+    },
+    {
+      "id": "m08",
+      "timestamp": "2026-04-02T09:15:00Z",
+      "app": "Excel",
+      "text": "Tab PnL_vs_Budget refreshed. EBITDA actual 276,900 vs budget 324,000. Comment needed = YES on 7 lines."
+    },
+    {
+      "id": "m09",
+      "timestamp": "2026-04-02T09:40:00Z",
+      "app": "Excel",
+      "text": "GL_import filtered on account 5000, Brightwood Timber Ltd: 3 invoices, price list 2026-02, total 162,000.00. Same cause as February."
+    },
+    {
+      "id": "m10",
+      "timestamp": "2026-04-02T10:30:00Z",
+      "app": "Mail",
+      "text": "Searched mail for 'Belvedere', 'StaffBridge', 'Celtic', 'KPC', 'Atlantic'. Found E06, E07, E09, E10, E11, E14."
+    },
+    {
+      "id": "m11",
+      "timestamp": "2026-04-02T11:15:00Z",
+      "app": "Excel",
+      "text": "Atlantic Freight: 3 lines 'Surcharge - service code EXP', 6,200.00 in total. No email or chat explains why. Left as open question."
+    },
+    {
+      "id": "m12",
+      "timestamp": "2026-04-03T09:50:00Z",
+      "app": "Excel",
+      "text": "Tab Commentary: wrote explanations for 7 lines above threshold, with sources."
+    },
+    {
+      "id": "m13",
+      "timestamp": "2026-04-03T16:30:00Z",
+      "app": "PowerPoint",
+      "text": "management_pack_2026-03.pptx: updated Summary, P&L vs budget and Variance commentary slides."
+    }
+  ],
+  "steps": [
+    {
+      "text": "Export the GL detail for the month from the ERP, P&L accounts 4000 to 6999.",
+      "sourceId": "m01",
+      "quote": "Reports > GL detail export. Period 2026-03.",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "Check that no entry appears twice after merging the split export (duplicate entry_id).",
+      "sourceId": "m02",
+      "quote": "Checked that no entry of 14 March appears twice.",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "Replace last month's rows in the GL_import tab with the new export.",
+      "sourceId": "m03",
+      "quote": "deleted February rows",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "If an account shows UNMAPPED, stop before calculating anything.",
+      "sourceId": "m04",
+      "quote": "Filter column M on UNMAPPED: 6 rows, account 4020",
+      "kind": "exception",
+      "reviewed": false
+    },
+    {
+      "text": "Find out what the new account is and confirm with the GL owner.",
+      "sourceId": "m05",
+      "quote": "account 4020 opened on 1 March for the new web shop",
+      "kind": "exception",
+      "reviewed": false
+    },
+    {
+      "text": "Add the account to the Mapping tab, then check that UNMAPPED returns 0 rows.",
+      "sourceId": "m06",
+      "quote": "UNMAPPED now returns 0 rows.",
+      "kind": "exception",
+      "reviewed": false
+    },
+    {
+      "text": "Check that the sum of net in GL_import equals the ERP P&L total.",
+      "sourceId": "m07",
+      "quote": "sum of net in GL_import matches the ERP P&L total",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "Refresh PnL_vs_Budget and list the lines where comment needed = YES.",
+      "sourceId": "m08",
+      "quote": "Comment needed = YES on 7 lines.",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "For each of these lines, filter GL_import by account and counterparty, and compare with last month's explanation.",
+      "sourceId": "m09",
+      "quote": "Same cause as February.",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "Search mail, chat and meeting notes for the cause.",
+      "sourceId": "m10",
+      "quote": "Searched mail for 'Belvedere', 'StaffBridge', 'Celtic', 'KPC', 'Atlantic'.",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "If no source explains a variance, say so and ask the owner. Never invent a cause.",
+      "sourceId": "m11",
+      "quote": "No email or chat explains why. Left as open question.",
+      "kind": "exception",
+      "reviewed": false
+    },
+    {
+      "text": "Write the explanation in the Commentary tab: cause, whether it repeats next month, and the source.",
+      "sourceId": "m12",
+      "quote": "wrote explanations for 7 lines above threshold, with sources",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "Update the management pack slides from the workbook.",
+      "sourceId": "m13",
+      "quote": "updated Summary, P&L vs budget and Variance commentary slides",
+      "kind": "normal",
+      "reviewed": false
+    }
+  ],
+  "questions": [
+    {
+      "question": "Should the duplicate entry_id check run on every export, or only when the split workaround is used?",
+      "answer": ""
+    }
+  ]
+}

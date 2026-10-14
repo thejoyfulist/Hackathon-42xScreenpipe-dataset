@@ -1,0 +1,16 @@
+From: Mark Fallon <mark.fallon@pipeline-furniture.example>
+To: Claire Donnelly <claire.donnelly@pipeline-furniture.example>, Ellen Walsh <ellen.walsh@pipeline-furniture.example>
+Subject: ERP - GL detail export timing out
+Date: Fri, 27 Feb 2026 16:05:00 +0000
+Message-ID: <e04@pipeline-furniture.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+X-Dataset: fictional (42 Paris x screenpipe hackathon)
+
+Hi both,
+
+Heads-up for month end: the GL detail export is timing out for full-month ranges (known issue, ticket open with the ERP vendor).
+
+Workaround: export 1-14 and 15-end of month separately and merge the two files. Make sure you don't paste the boundary day twice.
+
+Mark

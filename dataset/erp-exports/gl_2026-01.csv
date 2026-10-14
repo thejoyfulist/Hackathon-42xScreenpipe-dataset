@@ -1,0 +1,51 @@
+entry_id,posting_date,period,journal,account,account_name,cost_centre,counterparty,document_ref,description,debit,credit
+JE-202601-0001,2026-01-01,2026-01,SAL,4000,Sales - contract customers,SALES,Belvedere Hotel Group,SI-2601841,Contract delivery,0.00,61074.14
+JE-202601-0002,2026-01-01,2026-01,SAL,4010,Sales - dealers,SALES,DeskWorks Dealers,SI-2601204,Dealer order,0.00,59631.97
+JE-202601-0003,2026-01-01,2026-01,PUR,5200,Carriage outwards,LOG,Atlantic Freight Services,PI-26017760,Standard road freight,8642.87,0.00
+JE-202601-0004,2026-01-01,2026-01,PUR,6200,Rent and service charges,ADMIN,,PI-26016571,Rent and service charge,40000.00,0.00
+JE-202601-0005,2026-01-02,2026-01,PUR,5010,Purchases - metal fittings,PROD,Halvorsen Fittings,PI-26012773,"Hinges, frames and fittings",26105.80,0.00
+JE-202601-0006,2026-01-02,2026-01,PUR,6300,Other overheads,ADMIN,,PI-26012120,Overheads,9224.05,0.00
+JE-202601-0007,2026-01-06,2026-01,SAL,4000,Sales - contract customers,SALES,Harbour City Council,SI-2601702,Contract delivery,0.00,119061.17
+JE-202601-0008,2026-01-06,2026-01,PUR,5000,Purchases - timber and panels,PROD,Oakfield Panels,PI-26014027,Panels and boards,30836.45,0.00
+JE-202601-0009,2026-01-06,2026-01,PUR,6100,"Audit, legal and consulting fees",ADMIN,Harrowgate Audit & Tax,PI-26013533,Monthly retainer,8434.03,0.00
+JE-202601-0010,2026-01-07,2026-01,SAL,4010,Sales - dealers,SALES,OfficeLine Distribution,SI-2601258,Dealer order,0.00,51092.29
+JE-202601-0011,2026-01-07,2026-01,PUR,5000,Purchases - timber and panels,PROD,Nordboard Supplies,PI-26012313,Panels and boards,15660.22,0.00
+JE-202601-0012,2026-01-07,2026-01,PUR,6300,Other overheads,ADMIN,,PI-26014486,Overheads,5266.26,0.00
+JE-202601-0013,2026-01-09,2026-01,SAL,4000,Sales - contract customers,SALES,Quayside Co-working,SI-2601376,Contract delivery,0.00,88907.03
+JE-202601-0014,2026-01-09,2026-01,PUR,5000,Purchases - timber and panels,PROD,Brightwood Timber Ltd,BW-INV-10412,Oak and birch veneer panels - price list 2025,50000.00,0.00
+JE-202601-0015,2026-01-12,2026-01,PUR,6300,Other overheads,ADMIN,,PI-26015282,Overheads,5024.55,0.00
+JE-202601-0016,2026-01-13,2026-01,SAL,4000,Sales - contract customers,SALES,Meridian Insurance,SI-2601974,Contract delivery,0.00,62578.42
+JE-202601-0017,2026-01-13,2026-01,SAL,4010,Sales - dealers,SALES,Workspace Hub Retail,SI-2601424,Dealer order,0.00,98608.39
+JE-202601-0018,2026-01-14,2026-01,SAL,4010,Sales - dealers,SALES,DeskWorks Dealers,SI-2601866,Dealer order,0.00,59885.31
+JE-202601-0019,2026-01-14,2026-01,PUR,5010,Purchases - metal fittings,PROD,Halvorsen Fittings,PI-26013777,"Hinges, frames and fittings",24124.92,0.00
+JE-202601-0020,2026-01-14,2026-01,PUR,5200,Carriage outwards,LOG,Atlantic Freight Services,PI-26015572,Standard road freight,12687.52,0.00
+JE-202601-0021,2026-01-15,2026-01,PUR,5000,Purchases - timber and panels,PROD,Oakfield Panels,PI-26011858,Panels and boards,24995.41,0.00
+JE-202601-0022,2026-01-15,2026-01,PUR,6300,Other overheads,ADMIN,,PI-26014160,Overheads,8918.74,0.00
+JE-202601-0023,2026-01-16,2026-01,PUR,5000,Purchases - timber and panels,PROD,Nordboard Supplies,PI-26018697,Panels and boards,22552.09,0.00
+JE-202601-0024,2026-01-16,2026-01,PUR,6300,Other overheads,ADMIN,,PI-26013159,Overheads,9841.59,0.00
+JE-202601-0025,2026-01-19,2026-01,SAL,4000,Sales - contract customers,SALES,Lough Valley University,SI-2601162,Contract delivery,0.00,83967.23
+JE-202601-0026,2026-01-19,2026-01,SAL,4000,Sales - contract customers,SALES,Belvedere Hotel Group,SI-2601263,Contract delivery,0.00,118910.06
+JE-202601-0027,2026-01-19,2026-01,PUR,5000,Purchases - timber and panels,PROD,Brightwood Timber Ltd,BW-INV-10467,Oak and birch veneer panels - price list 2025,50000.00,0.00
+JE-202601-0028,2026-01-20,2026-01,SAL,4010,Sales - dealers,SALES,OfficeLine Distribution,SI-2601251,Dealer order,0.00,66498.12
+JE-202601-0029,2026-01-20,2026-01,PUR,5010,Purchases - metal fittings,PROD,Halvorsen Fittings,PI-26018247,"Hinges, frames and fittings",30015.64,0.00
+JE-202601-0030,2026-01-21,2026-01,PUR,5200,Carriage outwards,LOG,Atlantic Freight Services,PI-26014246,Standard road freight,14774.40,0.00
+JE-202601-0031,2026-01-22,2026-01,PUR,5000,Purchases - timber and panels,PROD,Oakfield Panels,PI-26016559,Panels and boards,16575.37,0.00
+JE-202601-0032,2026-01-22,2026-01,PUR,6000,Electricity and gas,ADMIN,Celtic Energy Supply,PI-26018247,Monthly energy invoice,33200.00,0.00
+JE-202601-0033,2026-01-22,2026-01,PUR,6100,"Audit, legal and consulting fees",ADMIN,Quay Legal LLP,PI-26012660,Monthly retainer,6565.97,0.00
+JE-202601-0034,2026-01-23,2026-01,SAL,4000,Sales - contract customers,SALES,Harbour City Council,SI-2601400,Contract delivery,0.00,69049.44
+JE-202601-0035,2026-01-23,2026-01,PUR,5110,Temporary staff,PROD,StaffBridge Recruitment,PI-26011603,Holiday cover operative,7600.00,0.00
+JE-202601-0036,2026-01-23,2026-01,PUR,6300,Other overheads,ADMIN,,PI-26015987,Overheads,6326.73,0.00
+JE-202601-0037,2026-01-23,2026-01,PUR,6300,Other overheads,ADMIN,,PI-26016690,Overheads,6089.98,0.00
+JE-202601-0038,2026-01-26,2026-01,SAL,4010,Sales - dealers,SALES,Workspace Hub Retail,SI-2601973,Dealer order,0.00,90487.45
+JE-202601-0039,2026-01-27,2026-01,SAL,4000,Sales - contract customers,SALES,Quayside Co-working,SI-2601213,Contract delivery,0.00,80196.75
+JE-202601-0040,2026-01-27,2026-01,PUR,5010,Purchases - metal fittings,PROD,Halvorsen Fittings,PI-26011659,"Hinges, frames and fittings",34053.64,0.00
+JE-202601-0041,2026-01-28,2026-01,SAL,4000,Sales - contract customers,SALES,Meridian Insurance,SI-2601395,Contract delivery,0.00,134755.76
+JE-202601-0042,2026-01-28,2026-01,SAL,4010,Sales - dealers,SALES,DeskWorks Dealers,SI-2601111,Dealer order,0.00,52696.47
+JE-202601-0043,2026-01-28,2026-01,PUR,5000,Purchases - timber and panels,PROD,Brightwood Timber Ltd,BW-INV-10519,Oak and birch veneer panels - price list 2025,50000.00,0.00
+JE-202601-0044,2026-01-29,2026-01,PUR,5000,Purchases - timber and panels,PROD,Nordboard Supplies,PI-26013893,Panels and boards,30580.46,0.00
+JE-202601-0045,2026-01-30,2026-01,PAY,5100,Wages - production,PROD,,PAY-202601-1,Production payroll,105854.97,0.00
+JE-202601-0046,2026-01-30,2026-01,PAY,5100,Wages - production,PROD,,PAY-202601-2,Production payroll,148945.03,0.00
+JE-202601-0047,2026-01-30,2026-01,PUR,5200,Carriage outwards,LOG,Atlantic Freight Services,PI-26018707,Standard road freight,10795.21,0.00
+JE-202601-0048,2026-01-30,2026-01,PUR,6300,Other overheads,ADMIN,,PI-26014729,Overheads,6708.10,0.00
+JE-202601-0049,2026-01-30,2026-01,PAY,6400,Salaries - administration and sales,ADMIN,,PAY-202601-1,Admin and sales payroll,43520.69,0.00
+JE-202601-0050,2026-01-30,2026-01,PAY,6400,Salaries - administration and sales,ADMIN,,PAY-202601-2,Admin and sales payroll,76479.31,0.00

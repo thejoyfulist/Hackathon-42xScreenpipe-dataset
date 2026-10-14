@@ -1,0 +1,245 @@
+{
+  "title": "Monthly management close",
+  "context": "Financial Controller closing the February 2026 management accounts of a fictional furniture maker. One observed session.",
+  "revision": 1,
+  "origin": "Curated synthetic candidate for the hackathon (fictional data). Not approved: review every step in the desk.",
+  "evidence": [
+    {
+      "id": "f01",
+      "timestamp": "2026-03-02T08:40:00Z",
+      "app": "Pipeline ERP",
+      "text": "Reports > GL detail export. Period 2026-02, accounts 4000 to 6999. Export started for 01/02/2026 - 28/02/2026."
+    },
+    {
+      "id": "f02",
+      "timestamp": "2026-03-02T08:42:00Z",
+      "app": "Pipeline ERP",
+      "text": "Error: request timed out after 120 s. Export not completed."
+    },
+    {
+      "id": "f03",
+      "timestamp": "2026-03-02T08:44:00Z",
+      "app": "Mail",
+      "text": "Searched mail for 'export timing out'. Opened Mark Fallon's email of 27 Feb: export 1-14 and 15-end of month separately and merge, do not paste the boundary day twice."
+    },
+    {
+      "id": "f04",
+      "timestamp": "2026-03-02T08:51:00Z",
+      "app": "Pipeline ERP",
+      "text": "Exported 01/02-14/02 and 15/02-28/02. Merged into gl_2026-02.csv: 50 rows, columns entry_id, posting_date, period, journal, account, account_name, cost_centre, counterparty, document_ref, description, debit, credit."
+    },
+    {
+      "id": "f05",
+      "timestamp": "2026-03-02T08:58:00Z",
+      "app": "Excel",
+      "text": "closing_workbook_2026-02.xlsx, tab GL_import: deleted January rows, pasted 50 February rows. Formulas in columns M (line_code) and N (net) copied down."
+    },
+    {
+      "id": "f06",
+      "timestamp": "2026-03-02T09:03:00Z",
+      "app": "Excel",
+      "text": "Tab Mapping checked: filter column M on UNMAPPED in GL_import returns 0 rows. All accounts mapped."
+    },
+    {
+      "id": "f07",
+      "timestamp": "2026-03-02T09:06:00Z",
+      "app": "Excel",
+      "text": "Check: sum of net in GL_import matches the ERP P&L total for February. OK."
+    },
+    {
+      "id": "f08",
+      "timestamp": "2026-03-02T09:10:00Z",
+      "app": "Excel",
+      "text": "Tab PnL_vs_Budget refreshed. EBITDA actual 312,800 vs budget 324,000."
+    },
+    {
+      "id": "f09",
+      "timestamp": "2026-03-02T09:12:00Z",
+      "app": "Excel",
+      "text": "Filter comment needed = YES: 1 line. Timber & panels -11,600."
+    },
+    {
+      "id": "f10",
+      "timestamp": "2026-03-02T09:20:00Z",
+      "app": "Excel",
+      "text": "GL_import filtered on account 5000 and counterparty Brightwood Timber Ltd: 3 invoices BW-INV-10588, BW-INV-10631, BW-INV-10690, description 'price list 2026-02', total 156,600.00."
+    },
+    {
+      "id": "f11",
+      "timestamp": "2026-03-02T09:26:00Z",
+      "app": "Mail",
+      "text": "Searched mail for 'Brightwood'. Found E01 (Brightwood price list +8% from 1 February) and E02 (Niamh: about EUR 12k a month, rebate requested)."
+    },
+    {
+      "id": "f12",
+      "timestamp": "2026-03-02T09:31:00Z",
+      "app": "Browser",
+      "text": "Opened news site during the close. Not related to the procedure."
+    },
+    {
+      "id": "f13",
+      "timestamp": "2026-03-02T09:40:00Z",
+      "app": "Excel",
+      "text": "Tab Commentary: Timber & panels -11,600. Brightwood Timber price list +8% from 1 February (letter of 28 January). Repeats every month until a rebate or a new supplier. Source: E01, E02, GL 5000."
+    },
+    {
+      "id": "f14",
+      "timestamp": "2026-03-02T09:44:00Z",
+      "app": "Mail",
+      "text": "Reopened Tom Avery's email of 5 Feb: comment every line above EUR 5,000, nothing below. No other comment written."
+    },
+    {
+      "id": "f15",
+      "timestamp": "2026-03-03T10:05:00Z",
+      "app": "PowerPoint",
+      "text": "management_pack_2026-02.pptx: updated Summary, P&L vs budget table and Variance commentary slides from the workbook."
+    },
+    {
+      "id": "f16",
+      "timestamp": "2026-03-04T18:22:00Z",
+      "app": "Mail",
+      "text": "Sent 'February management pack' to Tom Avery with management_pack_2026-02.pptx attached."
+    },
+    {
+      "id": "f17",
+      "timestamp": "2026-03-04T18:30:00Z",
+      "app": "Chat",
+      "text": "Posted in #finance-close: February close done, pack sent to Tom. Only material line: timber (Brightwood +8%)."
+    }
+  ],
+  "steps": [
+    {
+      "text": "Export the GL detail for the month from the ERP, P&L accounts 4000 to 6999.",
+      "sourceId": "f01",
+      "quote": "GL detail export. Period 2026-02, accounts 4000 to 6999",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "If the full-month export times out, use the split-export workaround. Not a standard step.",
+      "sourceId": "f02",
+      "quote": "Error: request timed out after 120 s.",
+      "kind": "troubleshooting",
+      "reviewed": false
+    },
+    {
+      "text": "Workaround: export 1-14 and 15-end separately, merge, and do not paste the boundary day twice.",
+      "sourceId": "f03",
+      "quote": "export 1-14 and 15-end of month separately and merge, do not paste the boundary day twice",
+      "kind": "troubleshooting",
+      "reviewed": false
+    },
+    {
+      "text": "Save the export as gl_YYYY-MM.csv and check its columns.",
+      "sourceId": "f04",
+      "quote": "columns entry_id, posting_date, period, journal, account, account_name, cost_centre, counterparty, document_ref, description, debit, credit",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "Replace last month's rows in the GL_import tab with the new export.",
+      "sourceId": "f05",
+      "quote": "deleted January rows",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "Check that no account shows UNMAPPED in GL_import.",
+      "sourceId": "f06",
+      "quote": "returns 0 rows. All accounts mapped.",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "Check that the sum of net in GL_import equals the ERP P&L total.",
+      "sourceId": "f07",
+      "quote": "sum of net in GL_import matches the ERP P&L total",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "Refresh PnL_vs_Budget and read EBITDA actual vs budget.",
+      "sourceId": "f08",
+      "quote": "Tab PnL_vs_Budget refreshed.",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "List the lines where comment needed = YES (variance of EUR 5,000 or more).",
+      "sourceId": "f09",
+      "quote": "Filter comment needed = YES",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "For each of these lines, filter GL_import by account and counterparty to find the entries behind the variance.",
+      "sourceId": "f10",
+      "quote": "GL_import filtered on account 5000 and counterparty Brightwood Timber Ltd",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "Search mail, chat and meeting notes for the cause.",
+      "sourceId": "f11",
+      "quote": "Searched mail for 'Brightwood'.",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "Unrelated browsing during the close.",
+      "sourceId": "f12",
+      "quote": "Opened news site during the close.",
+      "kind": "unclassified",
+      "reviewed": false
+    },
+    {
+      "text": "Write the explanation in the Commentary tab: cause, whether it repeats next month, and the source.",
+      "sourceId": "f13",
+      "quote": "Repeats every month until a rebate or a new supplier. Source: E01, E02, GL 5000.",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "Do not comment lines below the EUR 5,000 threshold (CFO rule).",
+      "sourceId": "f14",
+      "quote": "comment every line above EUR 5,000, nothing below",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "Update the management pack slides from the workbook.",
+      "sourceId": "f15",
+      "quote": "updated Summary, P&L vs budget table and Variance commentary slides",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "Send the pack to the CFO.",
+      "sourceId": "f16",
+      "quote": "Sent 'February management pack' to Tom Avery",
+      "kind": "normal",
+      "reviewed": false
+    },
+    {
+      "text": "Post a short status in #finance-close.",
+      "sourceId": "f17",
+      "quote": "Posted in #finance-close",
+      "kind": "normal",
+      "reviewed": false
+    }
+  ],
+  "questions": [
+    {
+      "question": "Record f12 is unrelated browsing: remove it from the procedure?",
+      "answer": ""
+    },
+    {
+      "question": "What is the deadline for sending the pack? The budget deck says working day 5.",
+      "answer": ""
+    },
+    {
+      "question": "Who approves the mapping when a new GL account appears?",
+      "answer": ""
+    }
+  ]
+}

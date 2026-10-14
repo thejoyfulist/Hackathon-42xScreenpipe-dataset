@@ -1,0 +1,248 @@
+[
+  {
+    "id": "D01",
+    "timestamp": "2026-01-28T09:00:00Z",
+    "app": "Document",
+    "text": "Brightwood Timber - Price list 2026 (effective 1 February 2026) (2026-01-28)\nItem | 2025 price (EUR/m2) | 2026 price (EUR/m2) | Change\nOak veneer panel 18 mm | 42.50 | 45.90 | +8%\nBirch veneer panel 18 mm | 31.25 | 33.75 | +8%\nOak veneer panel 25 mm | 55.00 | 59.40 | +8%\nApplies to all deliveries from 1 February 2026."
+  },
+  {
+    "id": "E01",
+    "timestamp": "2026-01-28T10:12:00Z",
+    "app": "Mail",
+    "text": "From: Brightwood Timber Ltd\nTo: Niamh Brennan\nSubject: Brightwood Timber - 2026 price list (effective 1 February)\nDate: 2026-01-28 10:12\n\nDear Niamh,\n\nPlease find attached our updated price list. Because of higher kiln-drying and transport costs, prices for oak and birch veneer panels will increase by 8% for all deliveries from 1 February 2026.\n\nCurrent orders delivered before 1 February keep the 2025 prices.\n\nKind regards,\nGareth Moss\nAccount Manager, Brightwood Timber Ltd"
+  },
+  {
+    "id": "E02",
+    "timestamp": "2026-01-29T09:03:00Z",
+    "app": "Mail",
+    "text": "From: Niamh Brennan\nTo: Claire Donnelly\nSubject: FW: Brightwood Timber - 2026 price list (effective 1 February)\nDate: 2026-01-29 09:03\n\nClaire,\n\nFYI, Brightwood is putting prices up 8% from 1 February. At our usual volume (about EUR 150k a month with them) that is roughly EUR 12k a month more on timber.\n\nI'm asking them for a volume rebate. No answer yet, I'll keep you posted.\n\nNiamh"
+  },
+  {
+    "id": "C01",
+    "timestamp": "2026-02-02T08:45:00Z",
+    "app": "Chat",
+    "text": "#finance-close - Claire Donnelly (2026-02-02 08:45): Starting the January close today. Order as usual: ERP export, workbook, mapping check, variances, commentary, pack."
+  },
+  {
+    "id": "COMMENTARY:2026-01",
+    "timestamp": "2026-02-04T17:00:00Z",
+    "app": "Word",
+    "text": "# Monthly commentary - January 2026\n\nFictional company (Pipeline Furniture Ltd). Validated by the CFO.\n\nEBITDA EUR 317,000 vs budget EUR 324,000 (-7,000).\n\nNo P&L line is above the EUR 5,000 threshold this month.\n\n## Notes below threshold\n\n- Freight out -2,900: Winter fuel surcharge from Atlantic Freight in January (below threshold, no comment required).\n- Energy -2,200: Cold January, higher heating in the workshop (below threshold).\n"
+  },
+  {
+    "id": "E03",
+    "timestamp": "2026-02-05T17:40:00Z",
+    "app": "Mail",
+    "text": "From: Tom Avery\nTo: Claire Donnelly\nSubject: January pack - feedback\nDate: 2026-02-05 17:40\n\nClaire,\n\nThanks for the January pack, clear and on time.\n\nFor February onwards, keep the threshold at EUR 5,000 per line: comment every line above it, nothing below. The board wants the cause and whether it will repeat next month.\n\nTom"
+  },
+  {
+    "id": "E04",
+    "timestamp": "2026-02-27T16:05:00Z",
+    "app": "Mail",
+    "text": "From: Mark Fallon\nTo: Claire Donnelly, Ellen Walsh\nSubject: ERP - GL detail export timing out\nDate: 2026-02-27 16:05\n\nHi both,\n\nHeads-up for month end: the GL detail export is timing out for full-month ranges (known issue, ticket open with the ERP vendor).\n\nWorkaround: export 1-14 and 15-end of month separately and merge the two files. Make sure you don't paste the boundary day twice.\n\nMark"
+  },
+  {
+    "id": "E17",
+    "timestamp": "2026-03-03T07:30:00Z",
+    "app": "Mail",
+    "text": "From: Mark Fallon\nTo: Claire Donnelly\nSubject: Password expires in 5 days\nDate: 2026-03-03 07:30\n\nYour Pipeline password expires in 5 days. Change it from the self-service portal.\n\nIT"
+  },
+  {
+    "id": "COMMENTARY:2026-02",
+    "timestamp": "2026-03-04T18:20:00Z",
+    "app": "Word",
+    "text": "# Monthly commentary - February 2026\n\nFictional company (Pipeline Furniture Ltd). Validated by the CFO.\n\nEBITDA EUR 312,800 vs budget EUR 324,000 (-11,200).\n\n## Timber & panels: -11,600\n\nBrightwood Timber price list +8% on veneer panels from 1 February 2026 (letter of 28 January). About EUR 12k per month at normal volume. Niamh is negotiating a volume rebate.\n\n- Repeats next month: Yes, every month until a rebate or a new supplier\n- Source: Email E01 (Brightwood, 28 Jan) and E02 (Niamh, 29 Jan); GL account 5000, invoices BW-INV-10588/10631/10690\n\n"
+  },
+  {
+    "id": "E05",
+    "timestamp": "2026-03-04T18:22:00Z",
+    "app": "Mail",
+    "text": "From: Claire Donnelly\nTo: Tom Avery\nSubject: February management pack\nDate: 2026-03-04 18:22\n\nTom,\n\nFebruary pack attached. EBITDA EUR 312.8k vs budget EUR 324.0k (-11.2k).\n\nOnly one line above the EUR 5k threshold: Timber & panels -11.6k. Brightwood's +8% price list applies from 1 February (letter of 28 January). It will repeat every month until Niamh gets the rebate or we change supplier.\n\nClaire"
+  },
+  {
+    "id": "C02",
+    "timestamp": "2026-03-04T18:30:00Z",
+    "app": "Chat",
+    "text": "#finance-close - Claire Donnelly (2026-03-04 18:30): February close done, pack sent to Tom. Only material line: timber (Brightwood +8%)."
+  },
+  {
+    "id": "M01",
+    "timestamp": "2026-03-05T09:00:00Z",
+    "app": "Meeting",
+    "text": "Weekly production meeting (2026-03-05 09:00)\nPieter de Vries: Morning everyone. First topic, the Harbour City order.\nRaj Mehta: Harbour City Council confirmed order HCC-0457 yesterday. School furniture, twenty-eight thousand euros, and they need it before the schools reopen at the end of March.\nPieter de Vries: That's a rush on top of the normal plan. With the current team we can't do it in three weeks.\nPieter de Vries: I'll bring in three temporary operatives from StaffBridge for three weeks, from Monday the ninth. That's about fourteen thousand euros.\nNiamh Brennan: Panels are fine, I can get the extra boards from Oakfield.\nSofia Lindqvist: Delivery to the schools is standard road freight, no problem.\nPieter de Vries: Decision: three StaffBridge operatives from 9 to 27 March for the Harbour City rush order.\nPieter de Vries: Action (Pieter): book the three operatives with StaffBridge today.\nRaj Mehta: Action (Raj): confirm the delivery date to Harbour City."
+  },
+  {
+    "id": "E07",
+    "timestamp": "2026-03-06T14:30:00Z",
+    "app": "Mail",
+    "text": "From: StaffBridge Recruitment\nTo: Pieter de Vries\nSubject: Booking confirmation - 3 operatives from 9 March\nDate: 2026-03-06 14:30\n\nHi Pieter,\n\nAs discussed on the phone, we confirm 3 temporary operatives for your workshop from Monday 9 March to Friday 27 March (3 weeks), at the agreed daily rate. Total estimate EUR 14,000, invoiced at the end of the assignment.\n\nLisa Grant\nStaffBridge Recruitment"
+  },
+  {
+    "id": "D02",
+    "timestamp": "2026-03-09T09:00:00Z",
+    "app": "Document",
+    "text": "Belvedere Hotel Group - Purchase order BHG-2291 (amended) (2026-03-09)\nField | Before | After\nDelivery date | 20 March 2026 | 14 April 2026\nAmount (EUR, excl. VAT) | 45,000.00 | 45,000.00\nStatus | Confirmed | Confirmed - delivery postponed\nReason: refurbishment works delayed at the Cork property."
+  },
+  {
+    "id": "E06",
+    "timestamp": "2026-03-09T11:47:00Z",
+    "app": "Mail",
+    "text": "From: Belvedere Hotel Group\nTo: Raj Mehta\nSubject: Order BHG-2291 - change of delivery date\nDate: 2026-03-09 11:47\n\nHello Raj,\n\nOur refurbishment works at the Cork property are running late. Please postpone the delivery of order BHG-2291 (lobby and meeting room furniture, EUR 45,000) to 14 April 2026.\n\nInvoice on delivery as agreed.\n\nBest regards,\nAnna Ross\nProcurement, Belvedere Hotel Group"
+  },
+  {
+    "id": "C03",
+    "timestamp": "2026-03-10T09:12:00Z",
+    "app": "Chat",
+    "text": "#sales-ops - Raj Mehta (2026-03-10 09:12): Heads-up: Belvedere pushed BHG-2291 (EUR 45k) from March to 14 April, their refurbishment is late. Nothing we can do, the order stays firm."
+  },
+  {
+    "id": "C04",
+    "timestamp": "2026-03-11T16:02:00Z",
+    "app": "Chat",
+    "text": "#production - Pieter de Vries (2026-03-11 16:02): Harbour City rush order is on track for delivery on 27 March. Busy weeks ahead in the workshop."
+  },
+  {
+    "id": "E18",
+    "timestamp": "2026-03-12T12:00:00Z",
+    "app": "Mail",
+    "text": "From: Pieter de Vries\nTo: Claire Donnelly, Ellen Walsh, Raj Mehta, Niamh Brennan, Sofia Lindqvist\nSubject: Friday lunch - workshop 10 years\nDate: 2026-03-12 12:00\n\nPizza in the workshop canteen on Friday at 12:30 to celebrate 10 years in the Cork building. All welcome!\n\nPieter"
+  },
+  {
+    "id": "C11",
+    "timestamp": "2026-03-13T12:40:00Z",
+    "app": "Chat",
+    "text": "#production - Pieter de Vries (2026-03-13 12:40): Thanks all for coming to the lunch!"
+  },
+  {
+    "id": "E19",
+    "timestamp": "2026-03-17T09:00:00Z",
+    "app": "Mail",
+    "text": "From: Tom Avery\nTo: Claire Donnelly, Ellen Walsh, Owen Kelly\nSubject: Welcome Owen\nDate: 2026-03-17 09:00\n\nPlease welcome Owen Kelly, who joins finance as junior analyst. Claire, please include him in the March close.\n\nTom"
+  },
+  {
+    "id": "E08",
+    "timestamp": "2026-03-18T09:15:00Z",
+    "app": "Mail",
+    "text": "From: Brightwood Timber Ltd\nTo: Niamh Brennan\nSubject: Price review - further adjustment from 1 May\nDate: 2026-03-18 09:15\n\nDear Niamh,\n\nFollowing our call, we are unable to offer a volume rebate this year. Please also note a further 3% increase on veneer panels for deliveries from 1 May 2026.\n\nKind regards,\nGareth Moss"
+  },
+  {
+    "id": "M02",
+    "timestamp": "2026-03-18T14:00:00Z",
+    "app": "Meeting",
+    "text": "Purchasing review (2026-03-18 14:00)\nNiamh Brennan: Brightwood answered this morning. No volume rebate, and a further three percent from the first of May.\nTom Avery: So the eight percent is permanent. Claire, what does that cost us?\nClaire Donnelly: About twelve thousand a month on timber since February. With three percent more from May, around sixteen to seventeen thousand a month.\nTom Avery: Decision: we look for a second supplier for veneer panels before May.\nTom Avery: Action (Niamh): get quotes from Oakfield and Nordboard by the end of April.\nTom Avery: Action (Claire): include the May increase in the Q2 forecast."
+  },
+  {
+    "id": "C05",
+    "timestamp": "2026-03-19T10:31:00Z",
+    "app": "Chat",
+    "text": "#dm-claire-niamh - Niamh Brennan (2026-03-19 10:31): Bad news on Brightwood: no rebate, and another +3% from 1 May. I'm getting quotes from Oakfield and Nordboard."
+  },
+  {
+    "id": "E09",
+    "timestamp": "2026-03-21T08:50:00Z",
+    "app": "Mail",
+    "text": "From: Celtic Energy Supply\nTo: Ellen Walsh\nSubject: Credit note CN-55821\nDate: 2026-03-21 08:50\n\nDear customer,\n\nFollowing the meter reading correction for October to December 2025, please find attached credit note CN-55821 for EUR 5,600.00. It will be deducted from your next payment.\n\nThis is a one-off correction. Your monthly invoices are not affected.\n\nCeltic Energy Supply - Billing"
+  },
+  {
+    "id": "D03",
+    "timestamp": "2026-03-21T09:00:00Z",
+    "app": "Document",
+    "text": "Celtic Energy Supply - Credit note CN-55821 (2026-03-21)\nDescription | Period | Amount (EUR)\nMeter reading correction | October - December 2025 | -5,600.00\nOne-off correction. Deducted from the next payment."
+  },
+  {
+    "id": "E10",
+    "timestamp": "2026-03-24T12:05:00Z",
+    "app": "Mail",
+    "text": "From: Tom Avery\nTo: KPC Advisory\nSubject: ERP phase 2 - start two weeks early\nDate: 2026-03-24 12:05\n\nDara,\n\nWe're happy to start phase 2 two weeks early, on 30 March, so the kickoff workshop happens before Easter. Please invoice the kickoff as per the proposal.\n\nClaire: this moves the EUR 8k kickoff from April to March.\n\nTom"
+  },
+  {
+    "id": "C12",
+    "timestamp": "2026-03-25T14:05:00Z",
+    "app": "Chat",
+    "text": "#sales-ops - Raj Mehta (2026-03-25 14:05): Quayside Co-working wants a quote for 40 more desks, I'm on it."
+  },
+  {
+    "id": "D04",
+    "timestamp": "2026-03-27T09:00:00Z",
+    "app": "Document",
+    "text": "KPC Advisory - Invoice KPC-2026-031 (2026-03-27)\nDescription | Amount (EUR)\nERP phase 2 - kickoff workshop and design | 8,000.00\nPhase 2 start moved from 13 April to 30 March at the client's request."
+  },
+  {
+    "id": "E11",
+    "timestamp": "2026-03-27T15:40:00Z",
+    "app": "Mail",
+    "text": "From: KPC Advisory\nTo: Ellen Walsh\nSubject: Invoice KPC-2026-031 - ERP phase 2 kickoff\nDate: 2026-03-27 15:40\n\nHello Ellen,\n\nPlease find attached invoice KPC-2026-031 for EUR 8,000.00 (ERP phase 2 - kickoff workshop and design), as agreed with Tom.\n\nDara Quinn\nKPC Advisory"
+  },
+  {
+    "id": "E12",
+    "timestamp": "2026-03-30T10:20:00Z",
+    "app": "Mail",
+    "text": "From: Harbour City Council\nTo: Raj Mehta\nSubject: Thank you - order HCC-0457\nDate: 2026-03-30 10:20\n\nRaj,\n\nMany thanks to you and the workshop for delivering the school furniture order HCC-0457 (EUR 28,000) in three weeks. The schools reopen on time.\n\nBrian Doyle\nFacilities, Harbour City Council"
+  },
+  {
+    "id": "D05",
+    "timestamp": "2026-03-31T09:00:00Z",
+    "app": "Document",
+    "text": "StaffBridge Recruitment - Invoice SB-7781 (2026-03-31)\nDescription | Days | Amount (EUR)\n3 temporary operatives, production, 9-27 March | 45 | 14,000.00\n"
+  },
+  {
+    "id": "C07",
+    "timestamp": "2026-03-31T17:10:00Z",
+    "app": "Chat",
+    "text": "#finance-close - Ellen Walsh (2026-03-31 17:10): Atlantic Freight March invoices posted, EUR 50.2k in total."
+  },
+  {
+    "id": "E14",
+    "timestamp": "2026-04-01T07:55:00Z",
+    "app": "Mail",
+    "text": "From: Atlantic Freight Services\nTo: Ellen Walsh\nSubject: Statement March 2026\nDate: 2026-04-01 07:55\n\nDear customer,\n\nYour March 2026 statement is available. Total charges: EUR 50,200.00, including surcharges as itemised on invoices AFS-0326-A, AFS-0326-B and AFS-0326-C.\n\nAtlantic Freight Services - Accounts"
+  },
+  {
+    "id": "E13",
+    "timestamp": "2026-04-02T09:30:00Z",
+    "app": "Mail",
+    "text": "From: Ellen Walsh\nTo: Claire Donnelly\nSubject: March GL export + new account 4020\nDate: 2026-04-02 09:30\n\nClaire,\n\nThe March GL export is in the shared folder (gl_2026-03.csv). I had to use Mark's split-export workaround again.\n\nNote: IT opened account 4020 \"Sales - online web shop\" on 1 March for the new web shop. It's not in the mapping tab of the closing workbook yet. About EUR 6.4k of sales in March.\n\nEllen"
+  },
+  {
+    "id": "C06",
+    "timestamp": "2026-04-02T09:34:00Z",
+    "app": "Chat",
+    "text": "#finance-close - Ellen Walsh (2026-04-02 09:34): March GL export is in the shared folder. New account 4020 (online web shop) since 1 March, not mapped yet."
+  },
+  {
+    "id": "C08",
+    "timestamp": "2026-04-03T11:20:00Z",
+    "app": "Chat",
+    "text": "#dm-claire-raj - Claire Donnelly (2026-04-03 11:20): Raj, is BHG-2291 still confirmed for 14 April? I want to say so in the March commentary."
+  },
+  {
+    "id": "C09",
+    "timestamp": "2026-04-03T11:26:00Z",
+    "app": "Chat",
+    "text": "#dm-claire-raj - Raj Mehta (2026-04-03 11:26): Yes, confirmed this morning with Anna Ross. Delivery 14 April, invoice same day."
+  },
+  {
+    "id": "E15",
+    "timestamp": "2026-04-07T08:40:00Z",
+    "app": "Mail",
+    "text": "From: Tom Avery\nTo: Claire Donnelly\nSubject: March pack by Thursday\nDate: 2026-04-07 08:40\n\nClaire,\n\nCan I have the March pack by Thursday? EBITDA looks well below budget and the board will want the reasons line by line.\n\nTom"
+  },
+  {
+    "id": "E16",
+    "timestamp": "2026-04-10T16:10:00Z",
+    "app": "Mail",
+    "text": "From: Claire Donnelly\nTo: Ellen Walsh\nSubject: Leave 20 April - 8 May: April close\nDate: 2026-04-10 16:10\n\nEllen,\n\nAs agreed, you'll run the April close while I'm on leave (20 April to 8 May). I'll write up the handoff notes on Tuesday. Owen will shadow you.\n\nClaire"
+  },
+  {
+    "id": "M03",
+    "timestamp": "2026-04-14T11:00:00Z",
+    "app": "Meeting",
+    "text": "April close handoff (2026-04-14 11:00)\nClaire Donnelly: Ellen, you'll run the April close, Owen shadows you. Threshold stays at five thousand per line.\nClaire Donnelly: Three things carry over from March. First, the Belvedere order of forty-five thousand should be invoiced on the fourteenth of April.\nClaire Donnelly: Second, the KPC kickoff of eight thousand was invoiced in March but budgeted in April, so April fees will look favourable. That's timing, not a saving.\nClaire Donnelly: Third, I never found why Atlantic Freight charged express surcharges in March. Six thousand two hundred.\nEllen Walsh: Who would know?\nClaire Donnelly: Sofia in logistics. I haven't asked her yet.\nClaire Donnelly: Decision: Ellen leads the April close, Claire is on leave from 20 April to 8 May.\nClaire Donnelly: Action (Ellen): ask Sofia which shipments used service code EXP in March.\nClaire Donnelly: Action (Owen): note every question you have during the April close."
+  },
+  {
+    "id": "C10",
+    "timestamp": "2026-04-14T15:00:00Z",
+    "app": "Chat",
+    "text": "#finance-close - Claire Donnelly (2026-04-14 15:00): April close handoff notes are in the close folder (handoff_2026-04.md). Ellen leads, Owen shadows. Ping me only if something is blocking."
+  }
+]

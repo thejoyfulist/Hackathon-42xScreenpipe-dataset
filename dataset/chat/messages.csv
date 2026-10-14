@@ -1,0 +1,13 @@
+id,channel,date,author,text
+C01,finance-close,2026-02-02 08:45,Claire Donnelly,"Starting the January close today. Order as usual: ERP export, workbook, mapping check, variances, commentary, pack."
+C02,finance-close,2026-03-04 18:30,Claire Donnelly,"February close done, pack sent to Tom. Only material line: timber (Brightwood +8%)."
+C03,sales-ops,2026-03-10 09:12,Raj Mehta,"Heads-up: Belvedere pushed BHG-2291 (EUR 45k) from March to 14 April, their refurbishment is late. Nothing we can do, the order stays firm."
+C04,production,2026-03-11 16:02,Pieter de Vries,Harbour City rush order is on track for delivery on 27 March. Busy weeks ahead in the workshop.
+C11,production,2026-03-13 12:40,Pieter de Vries,Thanks all for coming to the lunch!
+C05,dm-claire-niamh,2026-03-19 10:31,Niamh Brennan,"Bad news on Brightwood: no rebate, and another +3% from 1 May. I'm getting quotes from Oakfield and Nordboard."
+C12,sales-ops,2026-03-25 14:05,Raj Mehta,"Quayside Co-working wants a quote for 40 more desks, I'm on it."
+C07,finance-close,2026-03-31 17:10,Ellen Walsh,"Atlantic Freight March invoices posted, EUR 50.2k in total."
+C06,finance-close,2026-04-02 09:34,Ellen Walsh,"March GL export is in the shared folder. New account 4020 (online web shop) since 1 March, not mapped yet."
+C08,dm-claire-raj,2026-04-03 11:20,Claire Donnelly,"Raj, is BHG-2291 still confirmed for 14 April? I want to say so in the March commentary."
+C09,dm-claire-raj,2026-04-03 11:26,Raj Mehta,"Yes, confirmed this morning with Anna Ross. Delivery 14 April, invoice same day."
+C10,finance-close,2026-04-14 15:00,Claire Donnelly,"April close handoff notes are in the close folder (handoff_2026-04.md). Ellen leads, Owen shadows. Ping me only if something is blocking."

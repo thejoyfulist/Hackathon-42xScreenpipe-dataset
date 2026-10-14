@@ -1,0 +1,38 @@
+[
+  {
+    "id": "h1",
+    "timestamp": "2026-04-14T11:00:00Z",
+    "app": "Meeting",
+    "text": "Decision: Ellen Walsh leads the April close; Claire Donnelly is on leave from 20 April to 8 May.\nDecision: The commentary threshold stays at EUR 5,000 per line."
+  },
+  {
+    "id": "h2",
+    "timestamp": "2026-04-14T11:10:00Z",
+    "app": "Meeting",
+    "text": "Blocker: Atlantic Freight express surcharges (service code EXP, EUR 6,200 in March) are still unexplained.\nAction (Ellen): Ask Sofia Lindqvist which shipments used service code EXP in March."
+  },
+  {
+    "id": "h3",
+    "timestamp": "2026-04-14T11:20:00Z",
+    "app": "Mail",
+    "text": "Action (Ellen): Check that Belvedere order BHG-2291 (EUR 45,000) is invoiced on 14 April.\nAction (Ellen): Explain April professional fees as timing: KPC kickoff EUR 8,000 was invoiced in March but budgeted in April."
+  },
+  {
+    "id": "h4",
+    "timestamp": "2026-04-14T11:30:00Z",
+    "app": "Meeting",
+    "text": "Blocker: Brightwood +3% from 1 May is not in the Q2 forecast.\nAction (Unassigned): Update the Q2 forecast for Brightwood prices."
+  },
+  {
+    "id": "h5",
+    "timestamp": "2026-04-14T11:40:00Z",
+    "app": "Chat",
+    "text": "Decision: Account 4020 Sales - online web shop maps to Revenue - Online from March.\nAction (Owen): Shadow Ellen during the April close and note every question."
+  },
+  {
+    "id": "h6",
+    "timestamp": "2026-04-14T11:45:00Z",
+    "app": "Chat",
+    "text": "Claire mentioned she might change the deck template one day. Free text, not a decision."
+  }
+]

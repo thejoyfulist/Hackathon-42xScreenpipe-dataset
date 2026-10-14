@@ -1,0 +1,122 @@
+[
+  {
+    "id": "time1",
+    "timestamp": "2026-02-03T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Export GL detail from ERP\nRun: close-2026-01\nMinutes: 22"
+  },
+  {
+    "id": "time2",
+    "timestamp": "2026-03-02T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Export GL detail from ERP\nRun: close-2026-02\nMinutes: 48"
+  },
+  {
+    "id": "time3",
+    "timestamp": "2026-04-02T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Export GL detail from ERP\nRun: close-2026-03\nMinutes: 41"
+  },
+  {
+    "id": "time4",
+    "timestamp": "2026-02-03T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Paste export into closing workbook\nRun: close-2026-01\nMinutes: 14"
+  },
+  {
+    "id": "time5",
+    "timestamp": "2026-03-02T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Paste export into closing workbook\nRun: close-2026-02\nMinutes: 13"
+  },
+  {
+    "id": "time6",
+    "timestamp": "2026-04-02T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Paste export into closing workbook\nRun: close-2026-03\nMinutes: 15"
+  },
+  {
+    "id": "time7",
+    "timestamp": "2026-02-03T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Check mapping and control totals\nRun: close-2026-01\nMinutes: 18"
+  },
+  {
+    "id": "time8",
+    "timestamp": "2026-03-02T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Check mapping and control totals\nRun: close-2026-02\nMinutes: 17"
+  },
+  {
+    "id": "time9",
+    "timestamp": "2026-04-02T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Check mapping and control totals\nRun: close-2026-03\nMinutes: 34"
+  },
+  {
+    "id": "time10",
+    "timestamp": "2026-02-03T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Investigate variances above threshold\nRun: close-2026-01\nMinutes: 35"
+  },
+  {
+    "id": "time11",
+    "timestamp": "2026-03-02T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Investigate variances above threshold\nRun: close-2026-02\nMinutes: 85"
+  },
+  {
+    "id": "time12",
+    "timestamp": "2026-04-02T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Investigate variances above threshold\nRun: close-2026-03\nMinutes: 230"
+  },
+  {
+    "id": "time13",
+    "timestamp": "2026-02-03T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Write monthly commentary\nRun: close-2026-01\nMinutes: 30"
+  },
+  {
+    "id": "time14",
+    "timestamp": "2026-03-02T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Write monthly commentary\nRun: close-2026-02\nMinutes: 45"
+  },
+  {
+    "id": "time15",
+    "timestamp": "2026-04-02T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Write monthly commentary\nRun: close-2026-03\nMinutes: 95"
+  },
+  {
+    "id": "time16",
+    "timestamp": "2026-02-03T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Update management pack slides\nRun: close-2026-01\nMinutes: 40"
+  },
+  {
+    "id": "time17",
+    "timestamp": "2026-03-02T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Update management pack slides\nRun: close-2026-02\nMinutes: 38"
+  },
+  {
+    "id": "time18",
+    "timestamp": "2026-04-02T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Update management pack slides\nRun: close-2026-03\nMinutes: 44"
+  },
+  {
+    "id": "time19",
+    "timestamp": "2026-03-19T17:00:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Answer auditor sample request\nRun: audit-2026-03\nMinutes: 70"
+  },
+  {
+    "id": "time20",
+    "timestamp": "2026-04-02T17:05:00Z",
+    "app": "Reviewed task log",
+    "text": "Task: Investigate variances above threshold\nRun: close-2026-03\nMinutes: 230"
+  }
+]

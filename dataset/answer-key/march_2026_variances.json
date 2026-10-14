@@ -1,0 +1,262 @@
+{
+  "month": "2026-03",
+  "threshold": 5000,
+  "ebitda_actual": 276900,
+  "ebitda_budget": 324000,
+  "lines": [
+    {
+      "line_code": "REV_CONTRACT",
+      "line_name": "Revenue - Contract",
+      "actual": 803000,
+      "budget": 820000,
+      "variance_favourable_positive": -17000,
+      "variance_pct": -2.1,
+      "above_threshold": true,
+      "drivers": [
+        {
+          "driver": "Belvedere Hotel Group order BHG-2291 slipped from March to 14 April (hotel refurbishment late)",
+          "amount": -45000,
+          "type": "timing",
+          "evidence": [
+            "E06",
+            "C03"
+          ]
+        },
+        {
+          "driver": "Harbour City Council rush order HCC-0457 delivered in March (not budgeted)",
+          "amount": 28000,
+          "type": "volume",
+          "evidence": [
+            "M01",
+            "E12",
+            "GL:SI-260388"
+          ]
+        },
+        {
+          "driver": "Other contract customers",
+          "amount": 0,
+          "type": "other",
+          "evidence": []
+        }
+      ],
+      "repeats_next_month": "No. Belvedere reverses in April (+45,000 expected on 14 April); Harbour City was a one-off rush order."
+    },
+    {
+      "line_code": "REV_DEALER",
+      "line_name": "Revenue - Dealers",
+      "actual": 482500,
+      "budget": 480000,
+      "variance_favourable_positive": 2500,
+      "variance_pct": 0.5,
+      "above_threshold": false,
+      "drivers": [],
+      "repeats_next_month": null
+    },
+    {
+      "line_code": "REV_ONLINE",
+      "line_name": "Revenue - Online",
+      "actual": 6400,
+      "budget": 0,
+      "variance_favourable_positive": 6400,
+      "variance_pct": null,
+      "above_threshold": true,
+      "drivers": [
+        {
+          "driver": "New web shop launched 1 March; account 4020 not in the mapping table and not budgeted",
+          "amount": 6400,
+          "type": "new activity",
+          "evidence": [
+            "E13",
+            "C06"
+          ]
+        }
+      ],
+      "repeats_next_month": "Yes. New sales channel; add it to the budget reforecast."
+    },
+    {
+      "line_code": "MAT_TIMBER",
+      "line_name": "Timber & panels",
+      "actual": 302400,
+      "budget": 290000,
+      "variance_favourable_positive": -12400,
+      "variance_pct": -4.3,
+      "above_threshold": true,
+      "drivers": [
+        {
+          "driver": "Brightwood Timber price list +8% from 1 February (same explanation as February)",
+          "amount": -12000,
+          "type": "price",
+          "evidence": [
+            "E01",
+            "E02",
+            "COMMENTARY:2026-02",
+            "GL:BW-INV-10744"
+          ]
+        },
+        {
+          "driver": "Other timber suppliers, volume",
+          "amount": -400,
+          "type": "volume",
+          "evidence": []
+        }
+      ],
+      "repeats_next_month": "Yes, and worse: Brightwood adds +3% from 1 May (about 16,900 per month versus budget)."
+    },
+    {
+      "line_code": "MAT_FITTINGS",
+      "line_name": "Metal fittings & hardware",
+      "actual": 116100,
+      "budget": 115000,
+      "variance_favourable_positive": -1100,
+      "variance_pct": -1.0,
+      "above_threshold": false,
+      "drivers": [],
+      "repeats_next_month": null
+    },
+    {
+      "line_code": "LAB_DIRECT",
+      "line_name": "Direct labour",
+      "actual": 256200,
+      "budget": 255000,
+      "variance_favourable_positive": -1200,
+      "variance_pct": -0.5,
+      "above_threshold": false,
+      "drivers": [],
+      "repeats_next_month": null
+    },
+    {
+      "line_code": "LAB_TEMP",
+      "line_name": "Temporary labour",
+      "actual": 22000,
+      "budget": 8000,
+      "variance_favourable_positive": -14000,
+      "variance_pct": -175.0,
+      "above_threshold": true,
+      "drivers": [
+        {
+          "driver": "3 StaffBridge operatives (9-27 March) for the Harbour City rush order, decided in the production meeting of 5 March",
+          "amount": -14000,
+          "type": "volume",
+          "evidence": [
+            "M01",
+            "E07",
+            "GL:SB-7781"
+          ]
+        }
+      ],
+      "repeats_next_month": "No. The assignment ended on 27 March."
+    },
+    {
+      "line_code": "FREIGHT",
+      "line_name": "Freight out",
+      "actual": 50200,
+      "budget": 44000,
+      "variance_favourable_positive": -6200,
+      "variance_pct": -14.1,
+      "above_threshold": true,
+      "drivers": [
+        {
+          "driver": "Atlantic Freight express surcharges (service code EXP) - reason not found in any mail, chat or meeting",
+          "amount": -6200,
+          "type": "unexplained",
+          "evidence": [
+            "GL:AFS-0326-A",
+            "E14"
+          ]
+        }
+      ],
+      "repeats_next_month": "Unknown until Sofia Lindqvist explains the EXP surcharges."
+    },
+    {
+      "line_code": "ENERGY",
+      "line_name": "Energy",
+      "actual": 25400,
+      "budget": 31000,
+      "variance_favourable_positive": 5600,
+      "variance_pct": 18.1,
+      "above_threshold": true,
+      "drivers": [
+        {
+          "driver": "Celtic Energy credit note CN-55821, meter reading correction for Oct-Dec 2025 (one-off)",
+          "amount": 5600,
+          "type": "one-off",
+          "evidence": [
+            "E09",
+            "D03"
+          ]
+        }
+      ],
+      "repeats_next_month": "No. One-off credit note."
+    },
+    {
+      "line_code": "FEES",
+      "line_name": "Professional fees",
+      "actual": 23000,
+      "budget": 15000,
+      "variance_favourable_positive": -8000,
+      "variance_pct": -53.3,
+      "above_threshold": true,
+      "drivers": [
+        {
+          "driver": "KPC Advisory ERP phase 2 kickoff invoiced in March, budgeted in April (CFO approved early start)",
+          "amount": -8000,
+          "type": "timing",
+          "evidence": [
+            "E10",
+            "E11",
+            "D04"
+          ]
+        }
+      ],
+      "repeats_next_month": "Reverses in April: April fees will look 8,000 favourable (timing)."
+    },
+    {
+      "line_code": "RENT",
+      "line_name": "Rent & facilities",
+      "actual": 40000,
+      "budget": 40000,
+      "variance_favourable_positive": 0,
+      "variance_pct": 0.0,
+      "above_threshold": false,
+      "drivers": [],
+      "repeats_next_month": null
+    },
+    {
+      "line_code": "OTHER",
+      "line_name": "Other overheads",
+      "actual": 59300,
+      "budget": 58000,
+      "variance_favourable_positive": -1300,
+      "variance_pct": -2.2,
+      "above_threshold": false,
+      "drivers": [],
+      "repeats_next_month": null
+    },
+    {
+      "line_code": "LAB_ADMIN",
+      "line_name": "Salaries - admin & sales",
+      "actual": 120400,
+      "budget": 120000,
+      "variance_favourable_positive": -400,
+      "variance_pct": -0.3,
+      "above_threshold": false,
+      "drivers": [],
+      "repeats_next_month": null
+    }
+  ],
+  "expected_agent_behaviour": [
+    "Calculates every figure with code, never with the language model.",
+    "Stops and asks before calculating when account 4020 is UNMAPPED.",
+    "Splits Revenue - Contract (-17,000) into two stories: Belvedere -45,000 (timing) and Harbour City +28,000.",
+    "Recognises the timber variance as the same cause as February (memory) and asks whether it still holds.",
+    "Links temporary labour to the production meeting of 5 March: the reason was only said aloud.",
+    "Says it found no explanation for the freight surcharges and drafts a question to Sofia Lindqvist instead of inventing one.",
+    "Flags the energy credit note as one-off and the KPC fees as timing (reverses in April).",
+    "Rejects gl_2026-03_invalid.csv (duplicate entry and malformed amount) before producing any figure."
+  ],
+  "invalid_export": {
+    "duplicate_entry_id": "JE-202603-0023",
+    "malformed_entry_id": "JE-202603-0002",
+    "malformed_value": "4.818,78"
+  }
+}
